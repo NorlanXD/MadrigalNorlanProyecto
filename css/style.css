@@ -79,10 +79,19 @@ li a:hover {
 }
 
 .modulos {
-  background-color: #1122FF;
+  background-size: cover;
   width: 128px;
   height: 128px;
   float: left;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.modulos:hover {
+  background-size: cover;
+  width: 128px;
+  height: 128px;
+  float: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transform: scale(1.2,1.2);
 }
