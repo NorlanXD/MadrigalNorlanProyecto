@@ -50,8 +50,33 @@
 	display: block;
 }
 
-li a:hover {
+.menu li a:hover {
     background-color: #244770;
+}
+
+.submenu {
+  max-width: 500px;
+  height: auto;
+  float: right;
+  margin:0 auto;
+  color: #8A2125;
+  display: none;
+}
+
+.submenu li{
+	float: left;
+	font-size: 20px;
+}
+
+.submenu li a {
+	color:#ffffff;
+	text-decoration:none;
+	padding:20px 12px;
+}
+
+.submenu:hover {
+    background-color: #244770;
+    display: inline-block;
 }
 
 .slider {
@@ -94,35 +119,32 @@ li a:hover {
 
 
 .banderas {
-  display: flex;
   justify-content: center;
   margin: 0 auto;
   max-width: 1024px;
-  height: auto;
+  height: 800px;;
   flex: initial;
 }
 
-.caja1 {
+.caja {
     display: flex;
     width: 100%;
+    height: 150px;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-size: 8px;
+    text-align: center;
+
 }
 
 .modulos {
   background-size: cover;
-  width: 128px;
-  height: 128px;
+  width: 7%;
   float: left;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 .modulos:hover {
   background-size: cover;
-  width: 128px;
-  height: 128px;
+  width: 7%;
   float: left;
-  flex-direction: row;
-  flex-wrap: wrap;
   transform: scale(1.2,1.2);
 }
