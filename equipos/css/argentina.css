@@ -103,17 +103,12 @@ li a:hover {
 .cajon2{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
 }
 .cajon3 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-.cajon4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
 }
 .listajugadores {
   display: flex;
