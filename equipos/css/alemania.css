@@ -58,11 +58,6 @@ position: absolute;
 li a:hover {
     background-color: #8A2125;
 }
-
-.titulopag {
-  padding-top: 70px;
-}
-
 .contenido {
   width: 1024px;
   margin: 0 auto;
@@ -70,6 +65,7 @@ li a:hover {
   text-align: left;
   background-color: rgba(138, 33, 37, 0.6);
   flex: initial;
+  padding-top: 80px;
 }
 
 .posiciones {
@@ -98,31 +94,26 @@ li a:hover {
   height: 100px;
 }
 
-.defensa {
-  width: 100px;
+.cajon1 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.cajon3{
-  width: 100px;
+.cajon2{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+.cajon3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .cajon4 {
-  width: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
-.delantero {
-  width: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
 .listajugadores {
   display: flex;
   justify-content: center;

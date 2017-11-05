@@ -16,11 +16,13 @@
 .header {
   width: 100%;
   height: 80px;
+  margin-top: -10px;
   background-color:#386EAD;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-self: flex-start;
+  position: absolute;
 }
 
 /*------------- Menus de arriba y los menus con los videos --------------------*/
@@ -41,7 +43,7 @@
 .menu li a {
 	color:#ffffff;
   text-decoration:none;
-  padding:10px 12px;
+  padding:15px 20px;
   display: block;
 }
 
@@ -51,10 +53,19 @@
 }
 
 .menu li:hover > ul {
-	background-color: #454240;
+	background-color: #386EAD;
+  margin-top: 20px;
+	width: 80%;
 	display: block;
 }
 
+li a:hover {
+    background-color: #8A2125;
+}
+
+.slider {
+  padding-top: 70px;
+}
 
 .banderas {
   justify-content: center;
@@ -62,6 +73,12 @@
   max-width: 1024px;
   height: 800px;;
   flex: initial;
+  color:#ffffff;
+  text-decoration:none;
+}
+.banderas h1 {
+  color:#ffffff;
+  text-decoration:none;
 }
 
 .caja {
