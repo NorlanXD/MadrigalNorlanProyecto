@@ -131,6 +131,12 @@ li a:hover {
   font-size: 100px;
 }
 
+.titulo {
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+}
+
 .entrenador {
   display: flex;
   justify-content: center;
