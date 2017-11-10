@@ -131,3 +131,9 @@ li a:hover {
   font-size: 25px;
   text-align: center;
 }
+
+.alineaciones {
+  background-color: #8A2125;
+  display: flex;
+  justify-content: space-between;
+}
